@@ -14,7 +14,7 @@ class UserApiViewSet(ModelViewSet):
 
     serializer_class = UserSerializer
 
-    # a que modelo vamos a atacar
+    # modelo a trabajar
     queryset = User.objects.all()
 
     # nos permite registrar un usuario y encriptar la contrasena.
