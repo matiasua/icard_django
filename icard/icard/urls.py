@@ -23,7 +23,7 @@ schema_view = get_schema_view(
    openapi.Info(
       title="iCard - ApiDoc",
       default_version='v1',
-      description="Documentacion de la api de iCard",
+      description="Documentacion de la API de iCard",
       terms_of_service="https://www.github.com/matiasua",
       contact=openapi.Contact(email="matiasncp7@gmail.com"),
       license=openapi.License(name="BSD License"),
